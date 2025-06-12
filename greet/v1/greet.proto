@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greet;
 
-option go_package = "github.com/clock-en/connect-sample-backend/pbgen/submodules/protobuf/v1/greet;v1greet";
+option go_package = "github.com/clock-en/connect-sample-backend/pbgen/submodules/protobuf/greet/v1;greetv1";
 
 message GreetRequest {
   string name = 1;
