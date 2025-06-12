@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-package greet;
+package greet.v1;
 
 option go_package = "github.com/clock-en/connect-sample-backend/pbgen/submodules/protobuf/greet/v1;greetv1";
 
