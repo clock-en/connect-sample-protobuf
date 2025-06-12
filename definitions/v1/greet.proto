@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package greet;
 
-option go_package = "connect-sample-go-pbgen/pbgen/v1;pbgen";
+option go_package = "pbgen/v1;pbgen";
 
 message GreetRequest {
   string name = 1;
